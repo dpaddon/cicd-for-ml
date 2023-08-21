@@ -3,4 +3,8 @@
 
 Following along with [this course](https://www.wandb.courses/courses/ci-cd-for-machine-learning).
 
-Reference repo: https://github.com/hamelsmu/wandb-cicd
+## Useful links
+* Reference repo: https://github.com/hamelsmu/wandb-cicd
+
+* GitHub Actions docs: https://docs.github.com/actions
+
