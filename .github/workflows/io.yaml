@@ -1,6 +1,6 @@
 name: Demo save to file
-
 on: [push]
+
 jobs:
   io:
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs:
         shell: python
         run: |
           import os
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as file:
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
             print(f'val=true', file=f)
       - name: print val
         run: echo "saved value: ${{ steps.set-var.outputs.val }} "
