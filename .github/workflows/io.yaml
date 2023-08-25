@@ -13,4 +13,4 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
             print(f'val=true', file=f)
       - name: print val
-        run: echo "saved value: ${{ steps.set-var.outputs.val }} "
+        run: echo "saved value is ${{ steps.set-var.outputs.val }}"
